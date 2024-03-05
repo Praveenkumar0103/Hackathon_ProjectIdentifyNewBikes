@@ -52,7 +52,8 @@ public class usedCars  extends basePage
 	
 	// Click on 'Used cars in Chennai' link
 	
-	public void selectChennaiUsedCars(WebDriver driver) throws InterruptedException {
+	public void selectChennaiUsedCars(WebDriver driver) throws InterruptedException 
+	{
 		
 		Thread.sleep(5000);
 		chennaiUsedCars.click();

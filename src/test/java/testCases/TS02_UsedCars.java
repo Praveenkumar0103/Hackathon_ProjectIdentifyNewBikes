@@ -9,15 +9,20 @@ import testBase.Base;
 
 public class TS02_UsedCars extends Base {
 
+	usedCars usedCars;
 	
-	@Test(priority = 2)
-	public void usedCars() throws InterruptedException, IOException {
-		usedCars usedCars = new usedCars(driver);
-		
+	@Test(priority = 1,groups={"smoke","regression"})
+	public void TC05_usedCars() throws InterruptedException, IOException
+	{
+		usedCars = new usedCars(driver);
 		usedCars.usedCarsMenu(driver);
 		captureScreen("UsedCarsMenu");
 		logger.info("Hover done on used cars ");
-		
+	}	
+	
+	@Test(priority = 2,groups="regression")
+	public void TC06_usedCarsChennai() throws InterruptedException, IOException {	
+		usedCars = new usedCars(driver);
 		usedCars.selectChennaiUsedCars(driver);
 		captureScreen("UsedCarsInChennai");
 		logger.info("Used cars in chennai got clicked");

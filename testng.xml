@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite"> <!--parallel='tests' thread-count="2"-->
+<!--groups>
+	<run>
+		<include name="smoke"/>
+		<include name="regression"/>
+	</run>
+</groups-->
 <listeners>
 	<listener class-name="utilities.ExtentReportCreator"></listener>
 </listeners>
   <test thread-count="5" name="Test">
   <parameter name="browser" value="Chrome"></parameter>
   <classes>
-     <class name="testCases.Regressiontest"/>
-     <!--class name="testCases.Smoketest"/-->
- 	 <!--class name="testCases.TS01_UpcomingBikes"/>
+ 	 <class name="testCases.TS01_UpcomingBikes"/>
 	 <class name="testCases.TS02_UsedCars"/>
-     <class name="testCases.TS03_GoogleSignIn"/-->
+     <class name="testCases.TS03_GoogleSignIn"/>
     </classes>
   </test> <!-- Test -->
   
@@ -19,8 +23,6 @@
 	  <parameter name="os" value="windows" />
 	  <parameter name="browser" value="Edge"></parameter>
 	    <classes>
-	      <class name="testCases.Regressiontest"/>
-	      <class name="testCases.Smoketest"/>
 	      <class name="testCases.TS01_UpcomingBikes"/>
 	      <class name="testCases.TS02_UsedCars"/>
 	      <class name="testCases.TS03_GoogleSignIn"/>

@@ -14,7 +14,7 @@ public class UpcomingHondaBikes {
 	@Given("the user navigates to new bikes menu")
 	public void the_user_navigates_to_new_bikes_menu() throws Exception 
 	{
-		Thread.sleep(5000);
+		
 		ub.newBikesMenu(BaseClass.getDriver());
 	    
 	}
@@ -22,14 +22,14 @@ public class UpcomingHondaBikes {
 	@Given("selects the upcoming bikes")
 	public void selects_the_upcoming_bikes() throws Exception 
 	{
-		Thread.sleep(5000);
+		
 		ub.selectUpcomingBike();
 	}
 
 	@When("the user selects the manufacturer as Honda")
 	public void the_user_selects_the_manufacturer_as_honda() throws Exception 
 	{
-		Thread.sleep(5000);
+		
 	    ub.selectManufacturer();
 	}
 

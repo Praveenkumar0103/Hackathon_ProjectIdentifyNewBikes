@@ -49,7 +49,7 @@ public class upcomingBikes extends basePage {
 		
 		public void newBikesMenu(WebDriver driver) throws Exception 
 		{
-			
+			Thread.sleep(5000);
 			Actions action = new Actions(driver);
 			action.moveToElement(newBikesMenu).perform(); // Move mouse to 'New Bikes' menu
 		}
@@ -114,7 +114,7 @@ public class upcomingBikes extends basePage {
 					arr = s.split(" ");
 					priceList.add(arr[1]);
 				}
-				if (s.contains("Launch Date : ")) {
+				if (s.contains("Expected Launch ")) {
 					dateList.add(s);
 				}
 			}
@@ -131,7 +131,7 @@ public class upcomingBikes extends basePage {
 	        
 			// Initialize an ArrayList to store upcoming bikes with price less than 4 Lakhs
 			ArrayList<String> upcomingBikes = new ArrayList<String>();
-			if(nameList.size()>0) {for (int i = 0; i <nameList.size(); i++)
+			for (int i = 0; i <nameList.size(); i++)
 			{
 				String temp = nameList.get(i);
 				
@@ -168,7 +168,7 @@ public class upcomingBikes extends basePage {
 				  }
 			     }
 			  }
-			}
+			
 			
 			// Print the list of upcoming bikes to the console
 			System.out.println("Upcoming Honda Bikes Below 4 Lakhs are as follows:");

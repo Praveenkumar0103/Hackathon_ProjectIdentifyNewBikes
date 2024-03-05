@@ -7,13 +7,30 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testCases.Regressiontest">
+      <class name="testCases.TS03_GoogleSignIn">
         <methods>
-          <include name="testGoogleSignIn"/>
+          <include name="teardown"/>
+          <include name="TC09_captureErrorMessage"/>
+          <include name="setup"/>
+          <include name="TC08_googleSignIn"/>
+          <include name="TC07_clickSignIn"/>
+        </methods>
+      </class> <!-- testCases.TS03_GoogleSignIn -->
+      <class name="testCases.TS02_UsedCars">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="TC05_usedCars"/>
+          <include name="TC06_usedCarsChennai"/>
+        </methods>
+      </class> <!-- testCases.TS02_UsedCars -->
+      <class name="testCases.TS01_UpcomingBikes">
+        <methods>
+          <include name="TC04_viewMoreBikes"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.Regressiontest -->
+      </class> <!-- testCases.TS01_UpcomingBikes -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

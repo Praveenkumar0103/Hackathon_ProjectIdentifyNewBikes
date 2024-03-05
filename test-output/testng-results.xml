@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T14:59:36 IST" name="Suite" finished-at="2024-02-29T15:00:38 IST" duration-ms="62448">
+  <suite started-at="2024-03-05T15:07:02 IST" name="Suite" finished-at="2024-03-05T15:08:25 IST" duration-ms="82761">
     <groups>
+      <group name="regression">
+        <method signature="TS01_UpcomingBikes.TC01_newBikesHover()[pri:1, instance:testCases.TS01_UpcomingBikes@3527942a]" name="TC01_newBikesHover" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS01_UpcomingBikes.TC02_upComingBikesClick()[pri:2, instance:testCases.TS01_UpcomingBikes@3527942a]" name="TC02_upComingBikesClick" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS01_UpcomingBikes.TC03_selectManufacturer()[pri:3, instance:testCases.TS01_UpcomingBikes@3527942a]" name="TC03_selectManufacturer" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS01_UpcomingBikes.TC04_viewMoreBikes()[pri:4, instance:testCases.TS01_UpcomingBikes@3527942a]" name="TC04_viewMoreBikes" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS02_UsedCars.TC05_usedCars()[pri:1, instance:testCases.TS02_UsedCars@5e600dd5]" name="TC05_usedCars" class="testCases.TS02_UsedCars"/>
+        <method signature="TS02_UsedCars.TC06_usedCarsChennai()[pri:2, instance:testCases.TS02_UsedCars@5e600dd5]" name="TC06_usedCarsChennai" class="testCases.TS02_UsedCars"/>
+        <method signature="TS03_GoogleSignIn.TC07_clickSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@2e3967ea]" name="TC07_clickSignIn" class="testCases.TS03_GoogleSignIn"/>
+        <method signature="TS03_GoogleSignIn.TC08_googleSignIn()[pri:1, instance:testCases.TS03_GoogleSignIn@2e3967ea]" name="TC08_googleSignIn" class="testCases.TS03_GoogleSignIn"/>
+        <method signature="TS03_GoogleSignIn.TC09_captureErrorMessage()[pri:2, instance:testCases.TS03_GoogleSignIn@2e3967ea]" name="TC09_captureErrorMessage" class="testCases.TS03_GoogleSignIn"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TS01_UpcomingBikes.TC01_newBikesHover()[pri:1, instance:testCases.TS01_UpcomingBikes@3527942a]" name="TC01_newBikesHover" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS01_UpcomingBikes.TC02_upComingBikesClick()[pri:2, instance:testCases.TS01_UpcomingBikes@3527942a]" name="TC02_upComingBikesClick" class="testCases.TS01_UpcomingBikes"/>
+        <method signature="TS02_UsedCars.TC05_usedCars()[pri:1, instance:testCases.TS02_UsedCars@5e600dd5]" name="TC05_usedCars" class="testCases.TS02_UsedCars"/>
+        <method signature="TS03_GoogleSignIn.TC07_clickSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@2e3967ea]" name="TC07_clickSignIn" class="testCases.TS03_GoogleSignIn"/>
+        <method signature="TS03_GoogleSignIn.TC08_googleSignIn()[pri:1, instance:testCases.TS03_GoogleSignIn@2e3967ea]" name="TC08_googleSignIn" class="testCases.TS03_GoogleSignIn"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-02-29T14:59:36 IST" name="Test" finished-at="2024-02-29T15:00:38 IST" duration-ms="62448">
-      <class name="testCases.Regressiontest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Regressiontest@52b1beb6]" started-at="2024-02-29T14:59:36 IST" name="setup" finished-at="2024-02-29T14:59:50 IST" duration-ms="13492" status="PASS">
+    <test started-at="2024-03-05T15:07:02 IST" name="Test" finished-at="2024-03-05T15:08:25 IST" duration-ms="82761">
+      <class name="testCases.TS02_UsedCars">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS02_UsedCars@5e600dd5]" started-at="2024-03-05T15:07:39 IST" name="setup" finished-at="2024-03-05T15:07:44 IST" duration-ms="4780" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,23 +36,81 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testGoogleSignIn()[pri:0, instance:testCases.Regressiontest@52b1beb6]" started-at="2024-02-29T14:59:50 IST" name="testGoogleSignIn" finished-at="2024-02-29T14:59:58 IST" duration-ms="8264" status="PASS">
+        <test-method signature="TC05_usedCars()[pri:1, instance:testCases.TS02_UsedCars@5e600dd5]" started-at="2024-03-05T15:07:44 IST" name="TC05_usedCars" finished-at="2024-03-05T15:07:54 IST" duration-ms="10509" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGoogleSignIn -->
-        <test-method signature="upcomingBikes()[pri:1, instance:testCases.Regressiontest@52b1beb6]" started-at="2024-02-29T14:59:59 IST" name="upcomingBikes" finished-at="2024-02-29T15:00:09 IST" duration-ms="10218" status="PASS">
+        </test-method> <!-- TC05_usedCars -->
+        <test-method signature="TC06_usedCarsChennai()[pri:2, instance:testCases.TS02_UsedCars@5e600dd5]" started-at="2024-03-05T15:07:55 IST" name="TC06_usedCarsChennai" finished-at="2024-03-05T15:08:09 IST" duration-ms="14382" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- upcomingBikes -->
-        <test-method signature="usedCars()[pri:2, instance:testCases.Regressiontest@52b1beb6]" started-at="2024-02-29T15:00:09 IST" name="usedCars" finished-at="2024-02-29T15:00:36 IST" duration-ms="27227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usedCars -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Regressiontest@52b1beb6]" started-at="2024-02-29T15:00:37 IST" name="teardown" finished-at="2024-02-29T15:00:38 IST" duration-ms="1385" status="PASS">
+        </test-method> <!-- TC06_usedCarsChennai -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS02_UsedCars@5e600dd5]" started-at="2024-03-05T15:08:09 IST" name="teardown" finished-at="2024-03-05T15:08:10 IST" duration-ms="1144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.Regressiontest -->
+      </class> <!-- testCases.TS02_UsedCars -->
+      <class name="testCases.TS03_GoogleSignIn">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS03_GoogleSignIn@2e3967ea]" started-at="2024-03-05T15:08:10 IST" name="setup" finished-at="2024-03-05T15:08:18 IST" duration-ms="7253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC07_clickSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@2e3967ea]" started-at="2024-03-05T15:08:18 IST" name="TC07_clickSignIn" finished-at="2024-03-05T15:08:18 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_clickSignIn -->
+        <test-method signature="TC08_googleSignIn()[pri:1, instance:testCases.TS03_GoogleSignIn@2e3967ea]" started-at="2024-03-05T15:08:18 IST" name="TC08_googleSignIn" finished-at="2024-03-05T15:08:18 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_googleSignIn -->
+        <test-method signature="TC09_captureErrorMessage()[pri:2, instance:testCases.TS03_GoogleSignIn@2e3967ea]" started-at="2024-03-05T15:08:19 IST" name="TC09_captureErrorMessage" finished-at="2024-03-05T15:08:24 IST" duration-ms="4870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_captureErrorMessage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS03_GoogleSignIn@2e3967ea]" started-at="2024-03-05T15:08:24 IST" name="teardown" finished-at="2024-03-05T15:08:25 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TS03_GoogleSignIn -->
+      <class name="testCases.TS01_UpcomingBikes">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS01_UpcomingBikes@3527942a]" started-at="2024-03-05T15:07:03 IST" name="setup" finished-at="2024-03-05T15:07:21 IST" duration-ms="18115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_newBikesHover()[pri:1, instance:testCases.TS01_UpcomingBikes@3527942a]" started-at="2024-03-05T15:07:21 IST" name="TC01_newBikesHover" finished-at="2024-03-05T15:07:26 IST" duration-ms="5583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_newBikesHover -->
+        <test-method signature="TC02_upComingBikesClick()[pri:2, instance:testCases.TS01_UpcomingBikes@3527942a]" started-at="2024-03-05T15:07:27 IST" name="TC02_upComingBikesClick" finished-at="2024-03-05T15:07:30 IST" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_upComingBikesClick -->
+        <test-method signature="TC03_selectManufacturer()[pri:3, instance:testCases.TS01_UpcomingBikes@3527942a]" started-at="2024-03-05T15:07:30 IST" name="TC03_selectManufacturer" finished-at="2024-03-05T15:07:33 IST" duration-ms="2138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_selectManufacturer -->
+        <test-method signature="TC04_viewMoreBikes()[pri:4, instance:testCases.TS01_UpcomingBikes@3527942a]" started-at="2024-03-05T15:07:33 IST" name="TC04_viewMoreBikes" finished-at="2024-03-05T15:07:38 IST" duration-ms="4675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_viewMoreBikes -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS01_UpcomingBikes@3527942a]" started-at="2024-03-05T15:07:38 IST" name="teardown" finished-at="2024-03-05T15:07:39 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TS01_UpcomingBikes -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

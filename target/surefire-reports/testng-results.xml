@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T18:03:09 IST" name="Suite" finished-at="2024-02-29T18:04:15 IST" duration-ms="65654">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T18:03:09 IST" name="Test" finished-at="2024-02-29T18:04:15 IST" duration-ms="65654">
+      <class name="testCases.Regressiontest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Regressiontest@5c5eefef]" started-at="2024-02-29T18:03:10 IST" name="setup" finished-at="2024-02-29T18:03:17 IST" duration-ms="7683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGoogleSignIn()[pri:0, instance:testCases.Regressiontest@5c5eefef]" started-at="2024-02-29T18:03:17 IST" name="testGoogleSignIn" finished-at="2024-02-29T18:03:41 IST" duration-ms="23963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSignIn -->
+        <test-method signature="upcomingBikes()[pri:1, instance:testCases.Regressiontest@5c5eefef]" started-at="2024-02-29T18:03:42 IST" name="upcomingBikes" finished-at="2024-02-29T18:03:49 IST" duration-ms="7530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upcomingBikes -->
+        <test-method signature="usedCars()[pri:2, instance:testCases.Regressiontest@5c5eefef]" started-at="2024-02-29T18:03:49 IST" name="usedCars" finished-at="2024-02-29T18:04:13 IST" duration-ms="24097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCars -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Regressiontest@5c5eefef]" started-at="2024-02-29T18:04:14 IST" name="teardown" finished-at="2024-02-29T18:04:15 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Regressiontest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

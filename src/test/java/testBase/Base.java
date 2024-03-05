@@ -29,7 +29,7 @@ public class Base
     public Properties p;
 	
     // Method to set up the WebDriver instance based on the browser
-	@BeforeClass(groups={"smoke"})
+	@BeforeClass(groups={"smoke","regression"})
 	@Parameters({"browser"})
 	public void setup(String br) throws IOException  {
 		logger= LogManager.getLogger(this.getClass());
@@ -60,7 +60,7 @@ public class Base
 	
 	// Method to quit the browser
 
-	@AfterClass
+	@AfterClass(groups={"smoke","regression"})
 	public void teardown() 
 	{
 		driver.quit();
