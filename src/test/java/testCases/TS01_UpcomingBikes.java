@@ -45,7 +45,11 @@ public class TS01_UpcomingBikes extends Base{
 			logger.info("Clicked on View more options ");
 			captureScreen("ViewMoreBikes");
 			
-			
+		}
+		@Test(priority = 5,groups="regression")	
+		public void TC05_listOfBikes() throws Exception
+		{		
+			up = new upcomingBikes(driver);
 			up.bikeModels();
 			captureScreen("BikeModels");
 			logger.info("Upcoming honda bikes less than four lakhs got executed and printed");

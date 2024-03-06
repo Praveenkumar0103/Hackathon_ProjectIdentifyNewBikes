@@ -12,7 +12,7 @@ public class TS03_GoogleSignIn extends Base {
 	googleSignIn signin;
 	
 	@Test(priority =0,groups={"smoke","regression"})
-	public void TC07_clickSignIn() throws InterruptedException, IOException
+	public void TC09_clickSignIn() throws InterruptedException, IOException
 	{
 		signin = new googleSignIn(driver);
 		signin.clickSignIn();
@@ -20,7 +20,7 @@ public class TS03_GoogleSignIn extends Base {
 	}	
 	
 	@Test(priority =1,groups={"smoke","regression"})
-	public void TC08_googleSignIn() throws InterruptedException, IOException
+	public void TC10_googleSignIn() throws InterruptedException, IOException
 	{
 		signin = new googleSignIn(driver);
 		signin.googleLogIn(driver);
@@ -29,12 +29,18 @@ public class TS03_GoogleSignIn extends Base {
 	}
 	
 	@Test(priority =2,groups="regression")
-	public void TC09_captureErrorMessage() throws InterruptedException, IOException
+	public void TC11_captureErrorMessage() throws InterruptedException, IOException
 	{
 		signin = new googleSignIn(driver);
 		signin.getErrorMessage(driver);
 		captureScreen("ErrorMessage");
 		logger.info("Captured error message on using invalid login credentials ");
+	}
+	
+	@Test(priority =3,groups="regression")
+	public void TC12_closepopup() throws InterruptedException, IOException
+	{
+		signin = new googleSignIn(driver);		
 		signin.navigation(driver);
 		logger.info("Login page execution got failed and captured error message");
 	}

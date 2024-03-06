@@ -83,7 +83,7 @@ public class googleSignIn extends basePage
   	    	String[] inputData = ExcelUtils.readData("Sheet1",row);
   	    	email.sendKeys(inputData[0]);	
   	    	emailNextButton.click();
-  	    
+  	        Thread.sleep(3000);
   	    	if(errorMessage.getText().contains("Enter")|| errorMessage.getText().contains("Couldn’t "))
   	    	{ 
   	    		System.out.println("--------------- Error Message ------------------\n");
