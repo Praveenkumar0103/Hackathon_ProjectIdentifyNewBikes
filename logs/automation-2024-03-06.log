@@ -1,49 +1,46 @@
-10:20:18.225 [main] INFO  testCases.TS02_UsedCars - Popular models of Used cars in chennai got executed and printed
-10:20:33.622 [main] INFO  testCases.TS03_GoogleSignIn - Clicked on Login button
-10:20:34.806 [main] INFO  testCases.TS03_GoogleSignIn - Clicked on login with google
-10:20:35.254 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-10:20:35.256 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-10:20:35.257 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-10:21:14.044 [main] INFO  testCases.TS03_GoogleSignIn - Login page execution got failed and captured error message
-10:33:48.057 [main] INFO  testCases.TS01_UpcomingBikes - Hover done on new bikes 
-10:34:11.982 [main] INFO  testCases.TS01_UpcomingBikes - Navigated to upcoming bikes 
-10:34:13.543 [main] INFO  testCases.TS01_UpcomingBikes - Manufacturer Honda got selected 
-10:34:14.038 [main] INFO  testCases.TS01_UpcomingBikes - Clicked on View more options 
-10:34:17.822 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-10:34:17.827 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-10:34:18.570 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
-10:34:18.641 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
-10:34:18.647 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
-10:34:18.648 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
-10:34:18.651 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
-10:34:18.652 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
-10:34:18.652 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
-10:34:18.652 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
-10:34:18.655 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
-10:34:18.655 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
-10:34:18.882 [main] INFO  testCases.TS01_UpcomingBikes - Upcoming honda bikes less than four lakhs got executed and printed
-10:34:42.088 [main] INFO  testCases.TS02_UsedCars - Hover done on used cars 
-10:35:11.599 [main] INFO  testCases.TS02_UsedCars - Used cars in chennai got clicked
-10:35:17.234 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-10:35:17.235 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-10:35:17.273 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
-10:35:17.275 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
-10:35:17.277 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
-10:35:17.277 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
-10:35:17.278 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
-10:35:17.279 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
-10:35:17.279 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
-10:35:17.279 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
-10:35:17.281 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
-10:35:17.282 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
-10:35:17.503 [main] INFO  testCases.TS02_UsedCars - Popular models of Used cars in chennai got executed and printed
-10:35:25.025 [main] INFO  testCases.TS03_GoogleSignIn - Clicked on Login button
-10:35:25.723 [main] INFO  testCases.TS03_GoogleSignIn - Clicked on login with google
-10:51:33.478 [main] INFO  testCases.TS01_UpcomingBikes - Hover done on new bikes 
-10:52:09.850 [main] INFO  testCases.TS01_UpcomingBikes - Navigated to upcoming bikes 
-10:52:11.388 [main] INFO  testCases.TS01_UpcomingBikes - Manufacturer Honda got selected 
-10:52:12.080 [main] INFO  testCases.TS01_UpcomingBikes - Clicked on View more options 
-10:52:15.910 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-10:52:15.912 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-10:52:16.530 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
-10:52:16.609 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+11:16:45.775 [main] INFO  testCases.TS01_UpcomingBikes - Hover done on new bikes 
+11:16:47.068 [main] INFO  testCases.TS01_UpcomingBikes - Navigated to upcoming bikes 
+11:16:48.185 [main] INFO  testCases.TS01_UpcomingBikes - Manufacturer Honda got selected 
+11:16:48.765 [main] INFO  testCases.TS01_UpcomingBikes - Clicked on View more options 
+11:16:52.666 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:16:52.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:16:53.470 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+11:16:53.551 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+11:16:53.556 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+11:16:53.557 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+11:16:53.561 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+11:16:53.561 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+11:16:53.562 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
+11:16:53.562 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+11:16:53.565 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+11:16:53.566 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
+11:16:53.826 [main] INFO  testCases.TS01_UpcomingBikes - Upcoming honda bikes less than four lakhs got executed and printed
+11:17:13.261 [main] INFO  testCases.TS02_UsedCars - Hover done on used cars 
+11:17:24.097 [main] INFO  testCases.TS02_UsedCars - Used cars in chennai got clicked
+11:17:29.748 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:29.749 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:17:29.786 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+11:17:29.788 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+11:17:29.789 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+11:17:29.790 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+11:17:29.791 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+11:17:29.792 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+11:17:29.792 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
+11:17:29.792 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+11:17:29.794 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+11:17:29.795 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
+11:17:30.050 [main] INFO  testCases.TS02_UsedCars - Popular models of Used cars in chennai got executed and printed
+11:17:38.568 [main] INFO  testCases.TS03_GoogleSignIn - Clicked on Login button
+11:17:39.193 [main] INFO  testCases.TS03_GoogleSignIn - Clicked on login with google
+11:17:39.562 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:39.563 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:17:39.564 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:17:44.791 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:44.792 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:17:44.793 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:17:48.109 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:48.110 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:17:48.111 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:17:51.384 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:17:51.385 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:17:51.386 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels

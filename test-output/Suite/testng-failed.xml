@@ -11,7 +11,6 @@
         <methods>
           <include name="TC11_captureErrorMessage"/>
           <include name="teardown"/>
-          <include name="TC12_closepopup"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TS03_GoogleSignIn -->

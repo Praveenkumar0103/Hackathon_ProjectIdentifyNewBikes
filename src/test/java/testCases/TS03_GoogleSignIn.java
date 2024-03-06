@@ -16,6 +16,7 @@ public class TS03_GoogleSignIn extends Base {
 	{
 		signin = new googleSignIn(driver);
 		signin.clickSignIn();
+		captureScreen("Login button");
 		logger.info("Clicked on Login button");
 	}	
 	
@@ -24,6 +25,7 @@ public class TS03_GoogleSignIn extends Base {
 	{
 		signin = new googleSignIn(driver);
 		signin.googleLogIn(driver);
+		captureScreen("googleSignIn");
 		logger.info("Clicked on login with google");
 		
 	}
@@ -40,7 +42,8 @@ public class TS03_GoogleSignIn extends Base {
 	@Test(priority =3,groups="regression")
 	public void TC12_closepopup() throws InterruptedException, IOException
 	{
-		signin = new googleSignIn(driver);		
+		signin = new googleSignIn(driver);	
+		captureScreen("close popup");
 		signin.navigation(driver);
 		logger.info("Login page execution got failed and captured error message");
 	}

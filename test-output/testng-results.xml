@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-06T10:51:20 IST" name="Suite" finished-at="2024-03-06T10:53:39 IST" duration-ms="138690">
+  <suite started-at="2024-03-06T11:16:33 IST" name="Suite" finished-at="2024-03-06T11:17:59 IST" duration-ms="86418">
     <groups>
       <group name="regression">
         <method signature="TS01_UpcomingBikes.TC01_newBikesHover()[pri:1, instance:testCases.TS01_UpcomingBikes@5a45133e]" name="TC01_newBikesHover" class="testCases.TS01_UpcomingBikes"/>
@@ -26,9 +26,9 @@
         <method signature="TS03_GoogleSignIn.TC10_googleSignIn()[pri:1, instance:testCases.TS03_GoogleSignIn@a38c7fe]" name="TC10_googleSignIn" class="testCases.TS03_GoogleSignIn"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-03-06T10:51:20 IST" name="Test" finished-at="2024-03-06T10:53:39 IST" duration-ms="138690">
+    <test started-at="2024-03-06T11:16:33 IST" name="Test" finished-at="2024-03-06T11:17:59 IST" duration-ms="86418">
       <class name="testCases.TS02_UsedCars">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T10:52:18 IST" name="setup" finished-at="2024-03-06T10:52:24 IST" duration-ms="6496" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T11:16:55 IST" name="setup" finished-at="2024-03-06T11:17:02 IST" duration-ms="7430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,25 +39,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC06_usedCars()[pri:1, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T10:52:24 IST" name="TC06_usedCars" finished-at="2024-03-06T10:52:35 IST" duration-ms="10512" status="PASS">
+        <test-method signature="TC06_usedCars()[pri:1, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T11:17:02 IST" name="TC06_usedCars" finished-at="2024-03-06T11:17:13 IST" duration-ms="10597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC06_usedCars -->
-        <test-method signature="TC07_usedCarsChennai()[pri:2, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T10:52:35 IST" name="TC07_usedCarsChennai" finished-at="2024-03-06T10:53:04 IST" duration-ms="28672" status="PASS">
+        <test-method signature="TC07_usedCarsChennai()[pri:2, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T11:17:13 IST" name="TC07_usedCarsChennai" finished-at="2024-03-06T11:17:24 IST" duration-ms="10516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC07_usedCarsChennai -->
-        <test-method signature="TC08_popularModels()[pri:3, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T10:53:04 IST" name="TC08_popularModels" finished-at="2024-03-06T10:53:10 IST" duration-ms="5708" status="PASS">
+        <test-method signature="TC08_popularModels()[pri:3, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T11:17:24 IST" name="TC08_popularModels" finished-at="2024-03-06T11:17:30 IST" duration-ms="5751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC08_popularModels -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T10:53:10 IST" name="teardown" finished-at="2024-03-06T10:53:11 IST" duration-ms="1141" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS02_UsedCars@4d5650ae]" started-at="2024-03-06T11:17:30 IST" name="teardown" finished-at="2024-03-06T11:17:31 IST" duration-ms="1115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TS02_UsedCars -->
       <class name="testCases.TS03_GoogleSignIn">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T10:53:11 IST" name="setup" finished-at="2024-03-06T10:53:16 IST" duration-ms="4797" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T11:17:31 IST" name="setup" finished-at="2024-03-06T11:17:38 IST" duration-ms="6907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,29 +68,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC09_clickSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T10:53:16 IST" name="TC09_clickSignIn" finished-at="2024-03-06T10:53:16 IST" duration-ms="559" status="PASS">
+        <test-method signature="TC09_clickSignIn()[pri:0, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T11:17:38 IST" name="TC09_clickSignIn" finished-at="2024-03-06T11:17:38 IST" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC09_clickSignIn -->
-        <test-method signature="TC10_googleSignIn()[pri:1, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T10:53:17 IST" name="TC10_googleSignIn" finished-at="2024-03-06T10:53:17 IST" duration-ms="346" status="PASS">
+        <test-method signature="TC10_googleSignIn()[pri:1, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T11:17:38 IST" name="TC10_googleSignIn" finished-at="2024-03-06T11:17:39 IST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC10_googleSignIn -->
-        <test-method signature="TC11_captureErrorMessage()[pri:2, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T10:53:18 IST" name="TC11_captureErrorMessage" finished-at="2024-03-06T10:53:37 IST" duration-ms="19357" status="PASS">
+        <test-method signature="TC11_captureErrorMessage()[pri:2, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T11:17:39 IST" name="TC11_captureErrorMessage" finished-at="2024-03-06T11:17:58 IST" duration-ms="18551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC11_captureErrorMessage -->
-        <test-method signature="TC12_closepopup()[pri:3, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T10:53:37 IST" name="TC12_closepopup" finished-at="2024-03-06T10:53:37 IST" duration-ms="230" status="PASS">
+        <test-method signature="TC12_closepopup()[pri:3, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T11:17:58 IST" name="TC12_closepopup" finished-at="2024-03-06T11:17:58 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC12_closepopup -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T10:53:38 IST" name="teardown" finished-at="2024-03-06T10:53:39 IST" duration-ms="1114" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS03_GoogleSignIn@a38c7fe]" started-at="2024-03-06T11:17:58 IST" name="teardown" finished-at="2024-03-06T11:17:59 IST" duration-ms="1109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TS03_GoogleSignIn -->
       <class name="testCases.TS01_UpcomingBikes">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T10:51:21 IST" name="setup" finished-at="2024-03-06T10:51:27 IST" duration-ms="6502" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T11:16:33 IST" name="setup" finished-at="2024-03-06T11:16:40 IST" duration-ms="6287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,27 +101,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC01_newBikesHover()[pri:1, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T10:51:27 IST" name="TC01_newBikesHover" finished-at="2024-03-06T10:51:33 IST" duration-ms="5738" status="PASS">
+        <test-method signature="TC01_newBikesHover()[pri:1, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T11:16:40 IST" name="TC01_newBikesHover" finished-at="2024-03-06T11:16:45 IST" duration-ms="5682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_newBikesHover -->
-        <test-method signature="TC02_upComingBikesClick()[pri:2, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T10:51:33 IST" name="TC02_upComingBikesClick" finished-at="2024-03-06T10:52:09 IST" duration-ms="35920" status="PASS">
+        <test-method signature="TC02_upComingBikesClick()[pri:2, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T11:16:46 IST" name="TC02_upComingBikesClick" finished-at="2024-03-06T11:16:47 IST" duration-ms="950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_upComingBikesClick -->
-        <test-method signature="TC03_selectManufacturer()[pri:3, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T10:52:10 IST" name="TC03_selectManufacturer" finished-at="2024-03-06T10:52:11 IST" duration-ms="1585" status="PASS">
+        <test-method signature="TC03_selectManufacturer()[pri:3, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T11:16:47 IST" name="TC03_selectManufacturer" finished-at="2024-03-06T11:16:48 IST" duration-ms="1158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03_selectManufacturer -->
-        <test-method signature="TC04_viewMoreBikes()[pri:4, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T10:52:11 IST" name="TC04_viewMoreBikes" finished-at="2024-03-06T10:52:12 IST" duration-ms="496" status="PASS">
+        <test-method signature="TC04_viewMoreBikes()[pri:4, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T11:16:48 IST" name="TC04_viewMoreBikes" finished-at="2024-03-06T11:16:49 IST" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04_viewMoreBikes -->
-        <test-method signature="TC05_listOfBikes()[pri:5, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T10:52:12 IST" name="TC05_listOfBikes" finished-at="2024-03-06T10:52:16 IST" duration-ms="4364" status="PASS">
+        <test-method signature="TC05_listOfBikes()[pri:5, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T11:16:49 IST" name="TC05_listOfBikes" finished-at="2024-03-06T11:16:53 IST" duration-ms="4515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05_listOfBikes -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T10:52:17 IST" name="teardown" finished-at="2024-03-06T10:52:18 IST" duration-ms="1149" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TS01_UpcomingBikes@5a45133e]" started-at="2024-03-06T11:16:54 IST" name="teardown" finished-at="2024-03-06T11:16:55 IST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
