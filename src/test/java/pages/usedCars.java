@@ -41,7 +41,7 @@ public class usedCars  extends basePage
 	
 	public void usedCarsMenu(WebDriver driver) throws InterruptedException {
 	
-		Thread.sleep(5000);
+		
 		js = (JavascriptExecutor) driver;
 	    js.executeScript("scroll(0, -1400)");
 	    Thread.sleep(5000);

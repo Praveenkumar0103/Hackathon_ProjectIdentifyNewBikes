@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TS01_UpcomingBikes">
+      <class name="testCases.TS03_GoogleSignIn">
         <methods>
-          <include name="TC02_upComingBikesClick"/>
-          <include name="TC04_viewMoreBikes"/>
+          <include name="TC11_captureErrorMessage"/>
           <include name="teardown"/>
-          <include name="TC01_newBikesHover"/>
+          <include name="TC12_closepopup"/>
+          <include name="TC09_clickSignIn"/>
+          <include name="TC10_googleSignIn"/>
           <include name="setup"/>
-          <include name="TC03_selectManufacturer"/>
         </methods>
-      </class> <!-- testCases.TS01_UpcomingBikes -->
+      </class> <!-- testCases.TS03_GoogleSignIn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

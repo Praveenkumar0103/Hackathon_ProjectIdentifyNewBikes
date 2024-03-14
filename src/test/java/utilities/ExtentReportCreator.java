@@ -37,8 +37,8 @@ public class ExtentReportCreator implements ITestListener
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
 		extent.setSystemInfo("Application", "ZigWheels");
-		extent.setSystemInfo("User Id", System.getProperty("2303657"));
-		extent.setSystemInfo("User Name", "Praveenkumar Mylsamy" );
+		extent.setSystemInfo("User Id", "2303657");
+		extent.setSystemInfo("User Name", "PraveenKumar Mylsamy" );
 		extent.setSystemInfo("Environemnt", "QA");
 		String browser = testContext.getCurrentXmlTest().getParameter("browser");
 		extent.setSystemInfo("Browser", browser);
